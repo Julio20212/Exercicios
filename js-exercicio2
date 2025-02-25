@@ -1,0 +1,12 @@
+function entrar() {
+    const nome = document.getElementById('username').value;
+    const senha = document.getElementById('password').value;
+
+    if(nome === "adm" && senha === "123456"){
+        window.location.href="pages/adm.html"
+
+    }
+    else {
+        alert("Login ou senha incorretos!");
+    }
+}
